@@ -31,7 +31,7 @@ with st.sidebar:
 # -----------------------------
 @st.cache_data
 def load_data():
-    return pd.read_excel(r"E:\Undira\Rizky\dataset_absensi_dengan_jam.xlsx")
+    return pd.read_excel("data/dataset_absensi_dengan_jam.xlsx")
 
 df = load_data()
 
